@@ -1,0 +1,63 @@
+:root{
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+*, ::before, ::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.menu ul li{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #fff;
+    list-style: none;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5em;
+}
+
+.banner-img{
+    background: url(img/concierto.jpg);
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-img h1{
+    font-family: 'Monoton', cursive;
+    font-weight: 400;
+    color: #fff;
+    font-size: 13em;
+    margin-bottom: 0;
+}
+
+.banner-img p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fff; 
+    font-size: 2em;
+}
+
+.banner-img i{
+    color: #fff; 
+    font-size: 5em;
+}
+
+.container-cajas{
+    background-color: #fff;
+    height: 25em;
+}
