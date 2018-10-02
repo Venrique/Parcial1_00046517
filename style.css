@@ -214,6 +214,10 @@ body{
     border-radius: 10px;
 }
 
+.textarea::placeholder{
+    padding-left: 1em;
+}
+
 .overlay{
     background-color: rgba(0, 0, 0, 0.335);
     width: 95%;
@@ -265,5 +269,9 @@ body{
 
   .banner-img h1{
       font-size: 7em;
+  }
+
+  .container-fot{
+      grid-template-columns: 50%;
   }
 }
