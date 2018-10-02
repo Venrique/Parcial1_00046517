@@ -209,6 +209,10 @@ body{
     line-height: 2em;
 }
 
+.input::placeholder{
+    padding-left: 1em;
+}
+
 .textarea{
     height: 15em;
     border-radius: 10px;
