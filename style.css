@@ -23,6 +23,13 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 0 5em;
+    height: 2.5em;
+}
+
+.logo{
+    position: relative;
+    height: 250%;
+    top: 14%;
 }
 
 .banner-img{
@@ -231,4 +238,32 @@ body{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #fff;
+}
+
+.container-fot ul{
+    list-style: none;
+}
+
+.container-fot div{
+    padding-left: 2em;
+}
+
+@media only screen and (max-width: 1000px) {
+  .menu ul{
+      flex-direction: column;
+      align-items: center;
+      height: 50%;
+  }
+
+  .menu ul li{
+      padding: 1em;
+  }
+
+  .logo{
+      display: none;
+  }
+
+  .banner-img h1{
+      font-size: 7em;
+  }
 }
